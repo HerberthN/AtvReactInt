@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react';
 import './style.css';
-//import { StyleSheet, Text, View, Button } from 'react-native';
+//import { StyleSheet, Text, View, Button } from 'react-native'
 
 const App = () => {
   const back1 = () => ({margin: 'auto', width: 1000, height: 500, backgroundColor: '#D8D8D8', padding: 12, 
