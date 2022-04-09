@@ -28,19 +28,19 @@ const App = () => {
   const nome3 = "jaqueline mendes"
   return(
       <div style={back1()}>
-          {<label className="rotulo" htmlFor="nome" style={{}}>{textoDoRotulo}</label>}
+          {<label className="rotulo" htmlFor="nome">{textoDoRotulo}</label>}
           <div style={styleObj}>
             <div className='img1'>
             <img src={require('./images/R.jpg')} alt="R"/>
-            {<label className="nome1" htmlFor="nome:" style={{}}>{nome1}</label>}
+            {<label className="nome1" htmlFor="nome:">{nome1}</label>}
             </div>
             <div className='img2'>
             <img src={process.env.PUBLIC_URL + "/R (2).jpg"} alt="R2"/>
-            {<label className="nome2" htmlFor="nome:" style={{}}>{nome2}</label>}
+            {<label className="nome2" htmlFor="nome:">{nome2}</label>}
             </div>
             <div className='img3'>
             <img src="https://i.ibb.co/MstRFDx/R-1.jpg" alt="R3" />
-            {<label className="nome3" htmlFor="nome:" style={{}}>{nome3}</label>}
+            {<label className="nome3" htmlFor="nome:">{nome3}</label>}
             </div>
           </div>
       </div>
